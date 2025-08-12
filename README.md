@@ -31,12 +31,12 @@ It’s designed for **learning purposes**, but follows **industry-standard codin
 ---
 
 ## 📂 Project Structure
-CarInventorySystem/
-├── Car.java                   # POJO class for car details
-├── Constant.java              # Stores constant values (e.g., regex patterns)
-├── CustomException.java       # Defines user-defined exceptions
-├── Inventory.java             # Contains main inventory logic and main method
-└── README.md                  # Project documentation
+- CarInventorySystem/
+- ├── Car.java                   # POJO class for car details
+- ├── Constant.java              # Stores constant values (e.g., regex patterns)
+- ├── CustomException.java       # Defines user-defined exceptions
+- ├── Inventory.java             # Contains main inventory logic and main method
+- └── README.md                  # Project documentation
 ---
 
 ## 🖥️ Technologies Used
@@ -54,27 +54,27 @@ CarInventorySystem/
    ```
 ## 📌Example Menu
 - TaskList:
-1.Add Car Details(Name,Year,Price,FuelStatus(P/E),Registration No.)
-2.Remove the Car Details by Registration No.
-3.Show the list of Cars
-4.Show the list of Petrol Cars
-5.Show the list of electric Cars
-0.Exit
+- 1.Add Car Details(Name,Year,Price,FuelStatus(P/E),Registration No.)
+- 2.Remove the Car Details by Registration No.
+- 3.Show the list of Cars
+- 4.Show the list of Petrol Cars
+- 5.Show the list of electric Cars
+- 0.Exit
 
 ## 📊Sample Output
 
-1
-Enter the Car name:
-Honda EV
-Enter the year:
-2023
-Enter the Price:
-1200000
-Enter the FuelStatus:(Petrol= P | Electric= E)
-E
-Enter the Registration No.:
-MH23GH3456
-Car Added...
+- 1
+- Enter the Car name:
+- Honda EV
+- Enter the year:
+- 2023
+- Enter the Price:
+- 1200000
+- Enter the FuelStatus:(Petrol= P | Electric= E)
+- E
+- Enter the Registration No.:
+- MH23GH3456
+- Car Added...
 
 
 
